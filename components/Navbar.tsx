@@ -24,7 +24,6 @@ const Navbar = () => {
 
     const [activeItem, setActiveItem] = useState("")
 
-
     const {pathname} = useRouter()
 
     useEffect(() => {
