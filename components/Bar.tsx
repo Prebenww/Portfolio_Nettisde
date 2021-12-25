@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-import { ISkill } from "../type";
+import { ISkill } from "../types";
 
 const Bar: FunctionComponent<{ value: ISkill }> = ({
                                                       value: { Icon, level, name },

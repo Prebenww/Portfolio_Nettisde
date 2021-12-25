@@ -6,15 +6,18 @@ import {GoLocation} from  "react-icons/go"
 import {GiTie} from "react-icons/gi"
 import {SiExpo} from "react-icons/si"
 import {useTheme} from "next-themes"
+import React, {useState} from "react";
 
 
 const Sidebar = () => {
 
     const {theme, setTheme} =  useTheme();
 
+
     const changeTheme = () => {
         setTheme(theme === "light" ? "dark" : "light")
     }
+
 
     return (
         <div>
@@ -31,16 +34,12 @@ const Sidebar = () => {
             >Webutvikler</p>
             <a
                 className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
-                href="/asset"
-                download="Preben Wulff CV"><AiOutlineCloudDownload className="w-6 h-6" style={{marginRight: 5}}/> Last ned CV</a>
+                href="/assets/CV_PrebenWulff.pdf"
+                download="CV_PrebenWulff.pdf"><AiOutlineCloudDownload className="w-6 h-6" style={{marginRight: 5}}/> Last ned CV</a>
             {/*//social buttons*/}
             <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full" >
 
-
-
                 <a href="" ><AiFillGithub className="w-8 h-8 cursor-pointer"/></a>
-
-
 
                 <a href="" ><AiFillLinkedin className="w-8 h-8 cursor-pointer"/></a>
 
@@ -51,7 +50,7 @@ const Sidebar = () => {
             <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500" style={{marginLeft: "-1rem", marginRight: "-1rem"}}>
                 <div className="flex items-center justify-center space-x-2">
                     <GoLocation  />
-                <span >
+                <span>
                     Bergen, Norge
                 </span>
                 </div>
@@ -68,7 +67,7 @@ const Sidebar = () => {
                 Kontakt meg
             </button>
             <button onClick={changeTheme} className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2">
-                Toggle theme
+                {theme === "light" ? "Dark Mode" : "Light Mode"}
             </button>
         </div>
     )
