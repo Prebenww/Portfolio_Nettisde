@@ -8,18 +8,21 @@ const index = () => {
 
     return(
         <div className="flex flex-col flex-grow px-6 pt-1 ">
-            <h6 className="my-3 text-base font-medium"> I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-                Engineering from Academy of Technology. I have 3+ years of experience in
-                Web Development and I have a Youtube Channel where I teach Full Stack
-                Web Development
+            <h6 className="my-3 text-base font-medium"> Teknologi entusiast og entreprenør. Studerer Informasjonssystemer med fordypning i Software Engineering og Business lntelligence - ferdig utdannet våren 2022.
+                Har erfaring med HTML, ess og JS og frameworks som React JS, React Native.
+                Driver til daglig mediebedriften Mediatrafikk.
             </h6>
             <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
                  style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
             >
-                <h6 className="my-3 text-xl font-semibold tracking-wide">What I offer</h6>
+                <h6 className="my-3 text-xl font-semibold tracking-wide">Ferdigheter</h6>
                 <div className="grid gap-6 my-3 md:grid-cols-2">
                     {
-                        services.map(service => <ServiceCard service={service}/> )
+                        services.map(service =>
+                            <div  className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 ">
+                            <ServiceCard service={service}/>
+                            </div>
+                                )
                     }
                 </div>
             </div>
