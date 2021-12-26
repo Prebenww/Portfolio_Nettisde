@@ -15,7 +15,7 @@ const Bar: FunctionComponent<{ value: Skill }> = ({
         animate:{
             width:bar_width,
             transaction:{
-                duration:0.4,
+                duration:0.1,
                 type:"spring",
                 damping: 10,
                 stiffness: 100,

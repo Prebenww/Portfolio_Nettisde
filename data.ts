@@ -35,7 +35,7 @@ export const services:Service[] = [
     },
     {
         title: "Prosjektledelse",
-        about: "<b>Kommunisere</b> prosjektets hensikt, lønnsomhet og gjennomføring til både interne og eksterne aktører,\n" +
+        about: "Kan <b>Kommunisere</b> prosjektets hensikt, lønnsomhet og gjennomføring til både interne og eksterne aktører,\n" +
             "<br/><b>Lage</b> typiske dokumenter som brukes i prosjektdokumentasjon.\n"  +
             "<br/><b>Vurdere</b> og bruke ulike metoder å organisere og lede prosjekter.\n",
         Icon: AiOutlineTeam,
@@ -191,32 +191,7 @@ export const projects: IProject[] = [
             "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
         key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
     },
-    {
-        name: "YouTube using YouTube ",
-        image_path: "/images/youtubeClone.png",
-        deployed_url: "https://not-utube.web.app/",
-        github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-        category: ["express"],
-        description:
-            'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-        key_techs: [
-            "React",
-            "Redux",
-            "Firebase Auth",
-            "YouTube API",
-            "Sass",
-            "Bootstrap",
-        ],
-    },
-    {
-        name: "Football App",
-        image_path: "/images/football.png",
-        deployed_url: "https://o-my-goal.web.app/",
-        github_url: "https://github.com/Dey-Sumit/football-app",
-        category: ["react"],
-        description:
-            "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-        key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
-    },
+
+
 
 ]

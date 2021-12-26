@@ -1,65 +1,66 @@
-import React, {useState, useEffect, FunctionComponent} from "react";
-import Link from "next/link";
-import {useRouter} from "next/router";
+import { useState, useEffect, FunctionComponent } from 'react'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 
-const NavItem:FunctionComponent<{
-    activeItem:string,
-    setActiveItem:Function,
-    name:string,
-    route:string
-}> = ({activeItem,name,route,setActiveItem}) => {
-    return (
-        activeItem !== name ? (
-
-            <Link href={route}>
-                <a>
-                    <span  onClick={() => setActiveItem(name)} className="hover:text-green">{name}</span>
-                </a>
-            </Link>
-        ):null
-    )
+const NavItem: FunctionComponent<{
+    active: string
+    setActive: Function
+    name: string
+    route: string
+}> = ({ active, setActive, name, route }) => {
+    return active !== name ? (
+        <Link href={route}>
+            <a>
+            <span
+                className='mx-2 cursor-pointer hover:border-b-4 hover:text-green'
+                onClick={() => setActive(name)}>
+               {name}
+            </span>
+            </a>
+        </Link>
+    ) : null
 }
 
 const Navbar = () => {
+    const { pathname } = useRouter()
 
-    const [activeItem, setActiveItem] = useState("")
+    const [active, setActive] = useState('')
 
-    const {pathname} = useRouter()
-
+    //later
     useEffect(() => {
-        if (pathname === "/") setActiveItem("Om meg");
-        if (pathname === "/projects") setActiveItem("Prosjekter");
-        if (pathname === "/resume") setActiveItem("CV");
-    }, []);
-
+        if (pathname === '/') setActive('Om meg')
+        else if (pathname === '/projects') setActive('Prosjekter')
+        else if (pathname === '/resume') setActive('CV')
+    }, [])
 
     return (
-        <div className="flex justify-between px-5 py-3 my-3">
-            <span className="font-bold text-green text-xl border-green md:text-2xl">{activeItem}</span>
-            <div className="text-lg flex space-x-3">
+        <div className='flex items-center justify-between px-5 py-3 my-3'>
+         <span className='text-xl font-bold border-b-4 md:text-2xl border-green'>
+            {active}
+         </span>
+
+            <div className='text-base font-normal md:text-xl'>
                 <NavItem
-                    activeItem={activeItem}
-                    setActiveItem={setActiveItem}
-                    name="Om meg"
-                    route="/"
-                    />
-                {/*Projects*/}
-                <NavItem
-                    activeItem={activeItem}
-                    setActiveItem={setActiveItem}
-                    name="Prosjekter"
-                    route="/projects"
+                    active={active}
+                    setActive={setActive}
+                    name='Om meg'
+                    route='/'
                 />
-                {/*Resume*/}
                 <NavItem
-                    activeItem={activeItem}
-                    setActiveItem={setActiveItem}
-                    name="CV"
-                    route="/resume"
+                    active={active}
+                    setActive={setActive}
+                    name='CV'
+                    route='/resume'
+                />
+                <NavItem
+                    active={active}
+                    setActive={setActive}
+                    name='Prosjekter'
+                    route='/projects'
                 />
             </div>
         </div>
     )
 }
 
-export default Navbar;
+export default Navbar
