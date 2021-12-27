@@ -42,11 +42,11 @@ const Sidebar = () => {
             {/*//social buttons*/}
             <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full" >
 
-                <a href="" ><AiFillGithub className="w-8 h-8 cursor-pointer"/></a>
+                <a href="" ><AiFillGithub className="w-8 h-8 cursor-pointer" aria-label="Github"/></a>
 
-                <a href="" ><AiFillLinkedin className="w-8 h-8 cursor-pointer"/></a>
+                <a href="" ><AiFillLinkedin className="w-8 h-8 cursor-pointer" aria-label="Linkedin"/></a>
 
-                <a href="" ><SiExpo className="w-7 h-8 cursor-pointer"/></a>
+                <a href="" ><SiExpo className="w-7 h-8 cursor-pointer" aria-label="expo"/></a>
 
             </div>
             {/*address*/}
