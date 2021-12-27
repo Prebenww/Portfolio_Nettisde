@@ -11,7 +11,6 @@ import {IProject ,Service, Skill} from "./types"
 import {BsCircleFill} from "react-icons/bs";
 
 
-
 export const services:Service[] = [
     {
         title: "Front-end utvikling",
@@ -120,48 +119,47 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
     {
-        name: "COVID Tracker",
+        id: 1,
+        name: "Restaurant Finder",
         description:
-            "This app shows a statistical view about corona virus over the world",
-        image_path: "/images/covid.jpg",
-        deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-        github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+            "React Native med Hooks, Context API, AsyncStorage, Google Places API, Firebase.",
+        image_path: "/images/restaurantFinder.jpg",
+        deployed_url: "https://expo.dev/@prebenww/Revju",
+        github_url: "https://github.com/Prebenww/RestaurantFinder",
         category: ["react"],
-        key_techs: ["React", "Chart.js", "Material UI"],
+        key_techs: ["React Native", "Context API", "Styled Components"],
     },
     {
-        name: "Algorithm Visualizer",
+        id: 2,
+        name: "Nettbutikk",
         image_path: "/images/algoVisual.png",
-        deployed_url: "https://visual-algorithm.web.app/",
-        github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+        deployed_url: "https://github.com/Prebenww/e-shop",
+        github_url: "https://github.com/Prebenww",
         category: ["react"],
         description:
-            "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-        key_techs: ["React", "firebase", "Framer Motion"],
+            "Nettbutikk med Sass, Redux, GraphQL, firebase,",
+        key_techs: ["React", "firebase", "Redux"],
     },
 
     {
-        name: "Dev Talks",
-        image_path: "/images/dev.jpg",
-        deployed_url: "https://dev-talks.herokuapp.com/",
+        id: 3,
+        name: "Tesla klone",
+        image_path: "/images/tesla.jpg",
+        deployed_url: "https://expo.dev/@prebenww/teslaKlone",
         github_url: "https://github.com/Dey-Sumit/Dev-talks",
-        category: ["node", "mongo", "react"],
+        category: ["react native"],
         description:
-            "Social Media app for developers who can share project,create posts,etc...",
+            "Klone av Tesla sin UI med React.",
         key_techs: [
-            "React",
-            "Redux",
-            "Node",
-            "Express",
-            "Mongo",
-            "REST API",
-            "Bootstrap",
+            "React Native",
+
         ],
     },
 
     {
-        name: "Realtime Chat App",
-        image_path: "/images/chatapp.jpg",
+        id: 4,
+        name: "Uber Eats Klone",
+        image_path: "/images/uber-eats.jpg",
         deployed_url: "https://sumit-chat.netlify.app/",
         github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
         category: ["node", "react"],
@@ -171,8 +169,9 @@ export const projects: IProject[] = [
     },
 
     {
-        name: "Tweeter Clone",
-        image_path: "/images/tweetme.jpg",
+        id: 5,
+        name: "Planets",
+        image_path: "/images/planets.jpg",
         deployed_url: "https://sumaxtweetme.pythonanywhere.com/",
         github_url: "https://github.com/Dey-Sumit/tweetme",
         category: ["django", "react"],
@@ -182,16 +181,15 @@ export const projects: IProject[] = [
     },
 
     {
-        name: "Color Classification using tf.js",
-        image_path: "/images/color.jpg",
-        deployed_url: "!#",
+        id: 6,
+        name: "Portfolio Nettisde",
+        image_path: "/images/portfolio.png",
+        deployed_url: "https://github.com/Dey-Sumit/tweetme",
         github_url: "https://github.com/Dey-Sumit/color-classification",
         category: ["express"],
         description:
             "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
         key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
     },
-
-
 
 ]
