@@ -184,7 +184,7 @@ export const projects: IProject[] = [
 
     {
         id: 6,
-        name: "Portfolio Nettisde",
+        name: "Portfolio Nettside",
         image_path: "/images/portfolio.png",
         deployed_url: "https://prebenwulff.no",
         github_url: "https://github.com/Prebenww/Portfolio_Nettisde",
