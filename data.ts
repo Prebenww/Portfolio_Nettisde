@@ -129,10 +129,38 @@ export const projects: IProject[] = [
         category: ["react"],
         key_techs: ["React Native", "Context API", "Styled Components"],
     },
+
+    {
+        id: 4,
+        name: "Uber Eats Klone",
+        image_path: "/images/uber-eats.jpg",
+        deployed_url: "https://expo.dev/@prebenww/uberEats",
+        github_url: "https://github.com/Prebenww/uberEatsKlone",
+        category: [ "react native"],
+        description:
+            "Uber Eats klone med React Native fra en kode konkurranse",
+        key_techs: ["React Native", "Firebase", "Redux"],
+    },
+
+
+    {
+        id: 3,
+        name: "Tesla klone",
+        image_path: "/images/tesla.jpg",
+        deployed_url: "https://expo.dev/@prebenww/teslaKlone",
+        github_url: "https://github.com/Prebenww/",
+        category: ["react native"],
+        description:
+            "Klone av Tesla sin UI med React Native.",
+        key_techs: [
+            "React Native",
+
+        ],
+    },
     {
         id: 2,
         name: "Nettbutikk",
-        image_path: "/images/algoVisual.png",
+        image_path: "/images/e-shop.png",
         deployed_url: "https://github.com/Prebenww/e-shop",
         github_url: "https://github.com/Prebenww",
         category: ["react"],
@@ -141,42 +169,16 @@ export const projects: IProject[] = [
         key_techs: ["React", "firebase", "Redux"],
     },
 
-    {
-        id: 3,
-        name: "Tesla klone",
-        image_path: "/images/tesla.jpg",
-        deployed_url: "https://expo.dev/@prebenww/teslaKlone",
-        github_url: "https://github.com/Dey-Sumit/Dev-talks",
-        category: ["react native"],
-        description:
-            "Klone av Tesla sin UI med React.",
-        key_techs: [
-            "React Native",
-
-        ],
-    },
-
-    {
-        id: 4,
-        name: "Uber Eats Klone",
-        image_path: "/images/uber-eats.jpg",
-        deployed_url: "https://sumit-chat.netlify.app/",
-        github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-        category: ["node", "react"],
-        description:
-            "Basic Realtime Chat App where one can create a room can talk to each other",
-        key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-    },
 
     {
         id: 5,
         name: "Planets",
         image_path: "/images/planets.jpg",
-        deployed_url: "https://sumaxtweetme.pythonanywhere.com/",
-        github_url: "https://github.com/Dey-Sumit/tweetme",
-        category: ["django", "react"],
+        deployed_url: "https://github.com/Prebenww/",
+        github_url: "https://github.com/Prebenww/Java-med-Vue.js-front-end.",
+        category: ["Vue Js", "Java"],
         description:
-            "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
+            "Overiskt over planeter og solsystemer med diverse funksjoner. Laget med Java og Vue.js.",
         key_techs: ["React", "Django", "Django REST API"],
     },
 
@@ -184,12 +186,12 @@ export const projects: IProject[] = [
         id: 6,
         name: "Portfolio Nettisde",
         image_path: "/images/portfolio.png",
-        deployed_url: "https://github.com/Dey-Sumit/tweetme",
-        github_url: "https://github.com/Dey-Sumit/color-classification",
-        category: ["express"],
+        deployed_url: "https://prebenwulff.no",
+        github_url: "https://github.com/Prebenww/Portfolio_Nettisde",
+        category: ["react"],
         description:
             "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-        key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+        key_techs: ["Typescript", "React js", "Next Js", "Framer Motion"],
     },
 
 ]

@@ -25,9 +25,9 @@ const ProjectsNavbar: FunctionComponent<{
         <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
             <NavItem value="all" {...props} />
             <NavItem value="react" {...props} />
-            <NavItem value="mongo" {...props} />
-            <NavItem value="django" {...props} />
-            <NavItem value="node" {...props} />
+            <NavItem value="Java" {...props} />
+            <NavItem value="react native" {...props} />
+            <NavItem value="Vue Js" {...props} />
         </div>
     );
 };

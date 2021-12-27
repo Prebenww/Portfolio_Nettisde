@@ -7,6 +7,7 @@ import {GiTie} from "react-icons/gi"
 import {SiExpo} from "react-icons/si"
 import {useTheme} from "next-themes"
 import React, {useState} from "react";
+import Image from "next/image"
 
 
 const Sidebar = () => {
@@ -25,6 +26,8 @@ const Sidebar = () => {
                 src="https://media-exp1.licdn.com/dms/image/C4D03AQFldH8PTySDLA/profile-displayphoto-shrink_200_200/0/1581099833225?e=1643241600&v=beta&t=bca9obD3S56426Uw0xXwFaP97rn2vpA1Z1KG2rNK_4k"
                 alt="profil-bilde"
                 className="w-32 h-32 mx-auto rounded-full"
+
+
             />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-green">Preben </span>
@@ -34,7 +37,7 @@ const Sidebar = () => {
             >Webutvikler</p>
             <a
                 className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
-                href="/assets/CV_PrebenWulff.pdf"
+                href="CV_PrebenWulff.pdf"
                 download="CV_PrebenWulff.pdf"><AiOutlineCloudDownload className="w-6 h-6" style={{marginRight: 5}}/> Last ned CV</a>
             {/*//social buttons*/}
             <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full" >

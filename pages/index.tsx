@@ -7,8 +7,8 @@ import {stagger} from "../animations";
 import {routeAnimation} from "../animations";
 
 
-const index = () => {
-
+const About = ({endpoint}) => {
+    console.log(endpoint)
     return(
         <motion.div
            variants={routeAnimation} initial="initial" animate="animate" exit="exit"
@@ -43,20 +43,17 @@ const index = () => {
     )
 }
 
-export default index;
+export default About;
 
-/*export const getServerSideProps = async (context:GetServerSidePropsContext) => {
+export const getServerSideProps = async (
+    context:GetServerSidePropsContext
+) => {
 
-    const res = await fetch("http://localhost:3000/api/services")
-    const data = await res.json()
+/*    const res = await fetch(`${process.env.VERCEL_URL_}/api/services`)
+    const data = await res.json();*/
 
-
-    return {
-        props:{
-            services: data.services,
-        }
-    }
-}*/
+    return {props:{ endpoint: process.env.VERCEL_URL }}
+}
 
 /*export const getStaticProps = async (context:GetStaticPropsContext) => {
 
