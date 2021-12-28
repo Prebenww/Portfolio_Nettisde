@@ -179,7 +179,7 @@ export const projects: IProject[] = [
         category: ["Vue Js", "Java"],
         description:
             "Overiskt over planeter og solsystemer med diverse funksjoner. Laget med Java og Vue.js.",
-        key_techs: ["React", "Django", "Django REST API"],
+        key_techs: ["Java", "Vue Js"],
     },
 
     {
@@ -190,7 +190,7 @@ export const projects: IProject[] = [
         github_url: "https://github.com/Prebenww/Portfolio_Nettisde",
         category: ["react"],
         description:
-            "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+            "Personlig nettside med React, Next Js og TypeScript ",
         key_techs: ["Typescript", "React js", "Next Js", "Framer Motion"],
     },
 

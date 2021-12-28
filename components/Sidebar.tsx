@@ -28,6 +28,7 @@ const Sidebar = () => {
                 className="w-32 h-32 mx-auto rounded-full"
 
 
+
             />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-green">Preben </span>
