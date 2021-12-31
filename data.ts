@@ -19,7 +19,7 @@ export const services:Service[] = [
     },
     {
         title: "Back-end utvikling",
-        about: "Lage backend løsninger med <b>Node JS</b>, <b>Firebase</b> og <b>MongoDB</b>.",
+        about: "Lage backend løsninger med <b>Express</b>, <b>Firebase</b> og <b>MongoDB</b>.",
         Icon: AiOutlineDatabase,
     },
     {
@@ -29,7 +29,7 @@ export const services:Service[] = [
     },
     {
         title: "Software Engineering",
-        about: "Velge og anvende metoder og teknikker for å innhente, spesifisere og validere krav til et software system. ",
+        about: "Velge og anvende metoder og teknikker for å innhente, spesifisere og validere krav til et software system.",
         Icon: AiOutlineSetting,
     },
     {
