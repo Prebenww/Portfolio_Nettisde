@@ -20,7 +20,7 @@ const Resume = () => {
                         <h5 className="my-2 text-xl font-bold ">
                             Bachelorstudium i informasjonssystemer
                         </h5>
-                        <p className="font-semibold text-gray-700">HØGSKOLEN I ØSTFOLD  (2019-2022)</p>
+                        <p className="font-semibold text-gray-600">HØGSKOLEN I ØSTFOLD  (2019-2022)</p>
                         <p className="my-3">
                             Til våren 2022 fullfører jeg et bachelorstudium i informasjonssystemer.
                         </p>
@@ -30,7 +30,7 @@ const Resume = () => {
                     <h5 className="my-3 text-2xl font-bold">ARBEIDSERFARING </h5><br/>
                     <div className="">
                         <h5 className="my-2 text-xl font-bold">Selvstendig næringsdrivende</h5>
-                        <p className="font-semibold text-gray-700">MEDIATRAFIKK</p>
+                        <p className="font-semibold text-gray-600">MEDIATRAFIKK</p>
                         <p className="my-3">Ideutvikling, innovativ markedsføring, optimalisering av informasjonsarkitektur.</p>
                     </div>
                 </motion.div>
