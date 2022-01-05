@@ -22,7 +22,7 @@ const index = () => {
             <h6 className="my-3 text-base font-medium"> Teknologi entusiast og entreprenør. Studerer
                 Informasjonssystemer med fordypning i Software Engineering og Business lntelligence - ferdig utdannet
                 våren 2022.
-                Har erfaring med HTML, ess og JS og frameworks som React JS, React Native.
+                Har erfaring med HTML, CSS og JS og frameworks som React JS, React Native.
                 Driver til daglig mediebedriften Mediatrafikk, <a href="https://mediatrafikk.no/">Mediatrafikk.no</a>.
             </h6>
             <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
