@@ -172,13 +172,13 @@ export const projects: IProject[] = [
 
     {
         id: 5,
-        name: "Planets",
+        name: "Solar System",
         image_path: "/images/planets.jpg",
         deployed_url: "https://github.com/Prebenww/",
-        github_url: "https://github.com/Prebenww/Java-med-Vue.js-front-end.",
+        github_url: "https://github.com/Prebenww/SOLAR_SYSTEMS",
         category: ["Vue Js", "Java"],
         description:
-            "Overiskt over planeter og solsystemer med diverse funksjoner. Laget med Java og Vue.js.",
+            "Oversikt over planeter og solsystemer med diverse funksjoner. Laget med Java og Vue.js.",
         key_techs: ["Java", "Vue Js"],
     },
 
