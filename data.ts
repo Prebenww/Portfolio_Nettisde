@@ -202,7 +202,7 @@ export const projects: IProject[] = [
         github_url: "https://github.com/Prebenww/HULU_KLONE",
         category: ["react"],
         description:
-            "HULU klone med Tailwindcss",
+            "HULU klone med Lazy loading og serverside rendering. ",
         key_techs: ["Typescript", "React js", "Next Js", "Tailwindcss"],
     },
 
