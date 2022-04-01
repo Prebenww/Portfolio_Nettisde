@@ -157,17 +157,6 @@ export const projects: IProject[] = [
 
         ],
     },
-    {
-        id: 2,
-        name: "Nettbutikk",
-        image_path: "/images/e-shop.png",
-        deployed_url: "https://github.com/Prebenww/e-shop",
-        github_url: "https://github.com/Prebenww",
-        category: ["react"],
-        description:
-            "Nettbutikk med Sass, Redux, GraphQL, firebase,",
-        key_techs: ["React", "firebase", "Redux"],
-    },
 
 
     {
