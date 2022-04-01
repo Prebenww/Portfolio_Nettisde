@@ -174,7 +174,7 @@ export const projects: IProject[] = [
         id: 5,
         name: "Solar System",
         image_path: "/images/planets.jpg",
-        deployed_url: "https://github.com/Prebenww/",
+        deployed_url: "https://github.com/Prebenww/SOLAR_SYSTEMS",
         github_url: "https://github.com/Prebenww/SOLAR_SYSTEMS",
         category: ["Vue Js", "Java"],
         description:
@@ -192,6 +192,29 @@ export const projects: IProject[] = [
         description:
             "Personlig nettside med React, Next Js og TypeScript ",
         key_techs: ["Typescript", "React js", "Next Js", "Framer Motion"],
+    },
+
+    {
+        id: 7,
+        name: "Medium Klone",
+        image_path: "/images/medium.png",
+        deployed_url: "https://prebenwulff.no",
+        github_url: "https://github.com/Prebenww/Medium-Clone",
+        category: ["react"],
+        description:
+            "Medium blogg med Sanity backend.",
+        key_techs: ["Typescript", "React js", "Next Js", "Tailwindcss","Sanity"],
+    },
+    {
+        id: 8,
+        name: "Hulu Klone",
+        image_path: "/images/hulu.png",
+        deployed_url: "https://hulu-klone.vercel.app/",
+        github_url: "https://github.com/Prebenww/HULU_KLONE",
+        category: ["react"],
+        description:
+            "HULU klone med Tailwindcss",
+        key_techs: ["Typescript", "React js", "Next Js", "Tailwindcss"],
     },
 
 ]
