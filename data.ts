@@ -205,5 +205,16 @@ export const projects: IProject[] = [
             "HULU klone med Lazy loading og serverside rendering. ",
         key_techs: ["Typescript", "React js", "Next Js", "Tailwindcss"],
     },
+    {
+        id: 9,
+        name: "Google Klone",
+        image_path: "/images/google.png",
+        deployed_url: "https://www.google.com/",
+        github_url: "https://github.com/Prebenww/Google-klone",
+        category: ["react"],
+        description:
+            "Google klone med Google Search API og Serverside rendering med Next JS.",
+        key_techs: [ "React js", "Next Js", "Tailwindcss"],
+    },
 
 ]
