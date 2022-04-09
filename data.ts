@@ -10,7 +10,6 @@ import { AiOutlineBarChart } from "react-icons/ai";
 import {IProject ,Service, Skill} from "./types"
 import {BsCircleFill} from "react-icons/bs";
 
-
 export const services:Service[] = [
     {
         title: "Front-end utvikling",
