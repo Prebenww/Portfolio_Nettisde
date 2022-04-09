@@ -163,7 +163,7 @@ export const projects: IProject[] = [
         id: 5,
         name: "Solar System",
         image_path: "/images/planets.jpg",
-        deployed_url: "https://github.com/Prebenww/SOLAR_SYSTEMS",
+        deployed_url: "not-deployed",
         github_url: "https://github.com/Prebenww/SOLAR_SYSTEMS",
         category: ["Vue Js", "Java"],
         description:
@@ -187,7 +187,7 @@ export const projects: IProject[] = [
         id: 7,
         name: "Medium Klone",
         image_path: "/images/medium.png",
-        deployed_url: "https://prebenwulff.no",
+        deployed_url: "not-deployed",
         github_url: "https://github.com/Prebenww/Medium-Clone",
         category: ["react"],
         description:
@@ -209,7 +209,7 @@ export const projects: IProject[] = [
         id: 9,
         name: "Google Klone",
         image_path: "/images/google.png",
-        deployed_url: "https://www.google.com/",
+        deployed_url: 'not-deployed',
         github_url: "https://github.com/Prebenww/Google-klone",
         category: ["react"],
         description:
