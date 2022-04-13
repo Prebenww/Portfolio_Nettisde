@@ -223,8 +223,8 @@ export const projects: IProject[] = [
         github_url: "https://github.com/Prebenww/ecommerce-store",
         category: ["react"],
         description:
-            "Nettbutikk for Egil og Sønner AS med Next.js + Shopify Storefront API (GraphQL) + Tailwind CSS",
-        key_techs: [ "React js", "Next Js", "Tailwindcss"],
+            "Nettbutikk for Egil og Sønner AS med Next.js + Shopify Storefront API (GraphQL) + Tailwind CSS. Ikke helt ferdig enda",
+        key_techs: [ "React js", "Next Js", "Tailwindcss", "Shopify"],
     },
 
 ]
