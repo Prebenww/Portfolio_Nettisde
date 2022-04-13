@@ -215,5 +215,16 @@ export const projects: IProject[] = [
             "Google klone med Google Search API og Serverside rendering med Next JS.",
         key_techs: [ "React js", "Next Js", "Tailwindcss"],
     },
+    {
+        id: 10,
+        name: "Nettbutikk ",
+        image_path: "/images/nettbutikk.png",
+        deployed_url: 'https://nettbutikk-egil-og-sonner-as.vercel.app/',
+        github_url: "https://github.com/Prebenww/ecommerce-store",
+        category: ["react"],
+        description:
+            "Nettbutikk for Egil og Sønner AS med Next.js + Shopify Storefront API (GraphQL) + Tailwind CSS",
+        key_techs: [ "React js", "Next Js", "Tailwindcss"],
+    },
 
 ]
