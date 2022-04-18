@@ -137,7 +137,7 @@ export const projects: IProject[] = [
         image_path: "/images/restaurantFinder.jpg",
         deployed_url: "https://expo.dev/@prebenww/Revju",
         github_url: "https://github.com/Prebenww/RestaurantFinder",
-        category: ["react"],
+        category: ["react native"],
         key_techs: ["React Native", "Context API", "Styled Components"],
     },
 
