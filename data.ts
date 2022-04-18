@@ -167,7 +167,7 @@ export const projects: IProject[] = [
         category: ["Vue Js", "Java"],
         description:
             "Oversikt over planeter og solsystemer med diverse funksjoner. Laget med Java og Vue.js.",
-        key_techs: ["Java", "Vue Js"],
+        key_techs: ["Java", "Vue JS"],
     },
 
     {
@@ -179,7 +179,7 @@ export const projects: IProject[] = [
         category: ["react"],
         description:
             "Personlig nettside med React, Next Js og TypeScript ",
-        key_techs: ["Typescript", "React js", "Next Js", "Framer Motion"],
+        key_techs: ["Typescript", "React JS", "Next JS", "Framer Motion"],
     },
 
     {
@@ -191,7 +191,7 @@ export const projects: IProject[] = [
         category: ["react"],
         description:
             "Medium blogg med Sanity backend.",
-        key_techs: ["Typescript", "React js", "Next Js", "Tailwindcss","Sanity"],
+        key_techs: ["Typescript", "React JS", "Next JS", "Tailwindcss","Sanity"],
     },
     {
         id: 8,
@@ -202,7 +202,7 @@ export const projects: IProject[] = [
         category: ["react"],
         description:
             "HULU klone med Lazy loading og serverside rendering. ",
-        key_techs: ["Typescript", "React js", "Next Js", "Tailwindcss"],
+        key_techs: ["Typescript", "React JS", "Next JS", "Tailwindcss"],
     },
     {
         id: 9,
@@ -213,7 +213,7 @@ export const projects: IProject[] = [
         category: ["react"],
         description:
             "Google klone med Google Search API og Serverside rendering med Next JS.",
-        key_techs: [ "React js", "Next Js", "Tailwindcss"],
+        key_techs: [ "React JS", "Next JS", "Tailwindcss"],
     },
     {
         id: 10,
@@ -224,7 +224,19 @@ export const projects: IProject[] = [
         category: ["react"],
         description:
             "Nettbutikk for Egil og Sønner AS med Next.js + Shopify Storefront API (GraphQL) + Tailwind CSS. Ikke helt ferdig enda",
-        key_techs: [ "React js", "Next Js", "Tailwindcss", "Shopify"],
+        key_techs: [ "React js", "Next JS", "Tailwindcss", "Shopify"],
+    },
+
+    {
+        id: 11,
+        name: "Klone av viken.no",
+        image_path: "/images/viken.png",
+        deployed_url: 'https://viken-no-klone.vercel.app/',
+        github_url: "https://github.com/Prebenww/Viken.no-klone",
+        category: ["react"],
+        description:
+            "Responsiv klone av Viken Fylkeskomune sin hjemmeside.",
+        key_techs: [ "React JS", "Next JS", "Tailwindcss"],
     },
 
 ]
