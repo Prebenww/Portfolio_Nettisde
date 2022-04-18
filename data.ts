@@ -117,8 +117,20 @@ export const tools: Skill[] = [
 ];
 
 export const projects: IProject[] = [
+
     {
         id: 1,
+        name: "Hulu Klone",
+        image_path: "/images/hulu.png",
+        deployed_url: "https://hulu-klone.vercel.app/",
+        github_url: "https://github.com/Prebenww/HULU_KLONE",
+        category: ["react"],
+        description:
+            "HULU klone med Lazy loading og serverside rendering. ",
+        key_techs: ["Typescript", "React JS", "Next JS", "Tailwindcss"],
+    },
+    {
+        id: 2,
         name: "Restaurant Finder",
         description:
             "React Native med Hooks, Context API, AsyncStorage, Google Places API, Firebase.",
@@ -130,7 +142,7 @@ export const projects: IProject[] = [
     },
 
     {
-        id: 4,
+        id: 3,
         name: "Uber Eats Klone",
         image_path: "/images/uber-eats.jpg",
         deployed_url: "https://expo.dev/@prebenww/uberEats",
@@ -143,7 +155,7 @@ export const projects: IProject[] = [
 
 
     {
-        id: 3,
+        id: 4,
         name: "Tesla klone",
         image_path: "/images/tesla.jpg",
         deployed_url: "https://expo.dev/@prebenww/teslaKlone",
@@ -170,53 +182,21 @@ export const projects: IProject[] = [
         key_techs: ["Java", "Vue JS"],
     },
 
+
     {
         id: 6,
-        name: "Portfolio Nettside",
-        image_path: "/images/portfolio.png",
-        deployed_url: "https://prebenwulff.no",
-        github_url: "https://github.com/Prebenww/Portfolio_Nettisde",
+        name: "Klone av viken.no",
+        image_path: "/images/viken.png",
+        deployed_url: 'https://viken-no-klone.vercel.app/',
+        github_url: "https://github.com/Prebenww/Viken.no-klone",
         category: ["react"],
         description:
-            "Personlig nettside med React, Next Js og TypeScript ",
-        key_techs: ["Typescript", "React JS", "Next JS", "Framer Motion"],
+            "Responsiv klone av Viken Fylkeskomune sin hjemmeside.",
+        key_techs: [ "React JS", "Next JS", "Tailwindcss"],
     },
 
     {
         id: 7,
-        name: "Medium Klone",
-        image_path: "/images/medium.png",
-        deployed_url: "not-deployed",
-        github_url: "https://github.com/Prebenww/Medium-Clone",
-        category: ["react"],
-        description:
-            "Medium blogg med Sanity backend.",
-        key_techs: ["Typescript", "React JS", "Next JS", "Tailwindcss","Sanity"],
-    },
-    {
-        id: 8,
-        name: "Hulu Klone",
-        image_path: "/images/hulu.png",
-        deployed_url: "https://hulu-klone.vercel.app/",
-        github_url: "https://github.com/Prebenww/HULU_KLONE",
-        category: ["react"],
-        description:
-            "HULU klone med Lazy loading og serverside rendering. ",
-        key_techs: ["Typescript", "React JS", "Next JS", "Tailwindcss"],
-    },
-    {
-        id: 9,
-        name: "Google Klone",
-        image_path: "/images/google.png",
-        deployed_url: 'not-deployed',
-        github_url: "https://github.com/Prebenww/Google-klone",
-        category: ["react"],
-        description:
-            "Google klone med Google Search API og Serverside rendering med Next JS.",
-        key_techs: [ "React JS", "Next JS", "Tailwindcss"],
-    },
-    {
-        id: 10,
         name: "Nettbutikk ",
         image_path: "/images/nettbutikk.png",
         deployed_url: 'https://nettbutikk-egil-og-sonner-as.vercel.app/',
@@ -228,15 +208,28 @@ export const projects: IProject[] = [
     },
 
     {
-        id: 11,
-        name: "Klone av viken.no",
-        image_path: "/images/viken.png",
-        deployed_url: 'https://viken-no-klone.vercel.app/',
-        github_url: "https://github.com/Prebenww/Viken.no-klone",
+        id: 8,
+        name: "Google Klone",
+        image_path: "/images/google.png",
+        deployed_url: 'not-deployed',
+        github_url: "https://github.com/Prebenww/Google-klone",
         category: ["react"],
         description:
-            "Responsiv klone av Viken Fylkeskomune sin hjemmeside.",
+            "Google klone med Google Search API og Serverside rendering med Next JS.",
         key_techs: [ "React JS", "Next JS", "Tailwindcss"],
     },
+
+    {
+        id: 9,
+        name: "Medium Klone",
+        image_path: "/images/medium.png",
+        deployed_url: "not-deployed",
+        github_url: "https://github.com/Prebenww/Medium-Clone",
+        category: ["react"],
+        description:
+            "Medium blogg med Sanity backend.",
+        key_techs: ["Typescript", "React JS", "Next JS", "Tailwindcss","Sanity"],
+    },
+
 
 ]
