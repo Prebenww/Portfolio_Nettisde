@@ -169,7 +169,17 @@ export const projects: IProject[] = [
         ],
     },
 
-
+    {
+        id: 8,
+        name: "AUGTRACK ",
+        image_path: "/images/aug-track.png",
+        deployed_url: 'https://augtrack.com/',
+        github_url: "https://github.com/Prebenww/AUG-SHOP",
+        category: ["react"],
+        description:
+            "AugTrack gir deg et heatmap av din nettside ved å bruke truedepth teknologi fra iPhone sitt front camera.  ",
+        key_techs: [ "React js", "Next JS", "Tailwindcss", "Shopify"],
+    },
     {
         id: 5,
         name: "Solar System",
@@ -206,17 +216,7 @@ export const projects: IProject[] = [
             "Nettbutikk for Egil og Sønner AS med Next.js + Shopify Storefront API (GraphQL) + Tailwind CSS. Ikke helt ferdig enda",
         key_techs: [ "React js", "Next JS", "Tailwindcss", "Shopify"],
     },
-    {
-        id: 8,
-        name: "AUGTRACK ",
-        image_path: "/images/aug-track.png",
-        deployed_url: 'https://augtrack.com/',
-        github_url: "https://github.com/Prebenww/AUG-SHOP",
-        category: ["react"],
-        description:
-            "AugTrack gir deg et heatmap av din nettside ved å bruke truedepth teknologi fra iPhone sitt front camera.  ",
-        key_techs: [ "React js", "Next JS", "Tailwindcss", "Shopify"],
-    },
+
     {
         id: 9,
         name: "Google Klone",
