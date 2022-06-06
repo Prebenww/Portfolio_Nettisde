@@ -176,7 +176,7 @@ export const projects: IProject[] = [
         name: "NASA APP",
         description:
             "MERN-stack app with AWS, MongoDB, Express, NodeJS, and ReactJS.",
-        image_path: "/images/nasa.jpg",
+        image_path: "/images/nasa.png",
         deployed_url: "http://16.170.204.28:8000/",
         github_url: "https://github.com/Prebenww/NASA-app",
         category: ["react"],
