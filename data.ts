@@ -129,6 +129,8 @@ export const projects: IProject[] = [
             "HULU klone med Lazy loading og serverside rendering. ",
         key_techs: ["Typescript", "React JS", "Next JS", "Tailwindcss"],
     },
+     
+   
     {
         id: 2,
         name: "Restaurant Finder",
@@ -168,6 +170,19 @@ export const projects: IProject[] = [
 
         ],
     },
+
+    {
+        id: 11,
+        name: "NASA APP",
+        description:
+            "MERN-stack app with AWS, MongoDB, Express, NodeJS, and ReactJS.",
+        image_path: "/images/nasa.jpg",
+        deployed_url: "http://16.170.204.28:8000/",
+        github_url: "https://github.com/Prebenww/NASA-app",
+        category: ["react"],
+        key_techs: ["React JS", "MongoDB", "Express", "NodeJS"],
+    },
+
 
     {
         id: 8,
