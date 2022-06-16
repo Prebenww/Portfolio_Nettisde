@@ -23,7 +23,7 @@ const index = () => {
                 Informasjonssystemer med fordypning i Software Engineering og Business lntelligence - ferdig utdannet
                 våren 2022.
                 Har erfaring med HTML, CSS og JS og frameworks som React JS, React Native.
-                Jobber per dags dato som full stack-utvikler i en cybersecurity bedrift <a href="https://mediatrafikk.no/">Mediatrafikk.no</a>.
+                Jobber per dags dato som full stack-utvikler i en cybersecurity bedrift.
             </h6>
             <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
                  style={{marginLeft: "-1.5rem", marginRight: "-1.5rem"}}
